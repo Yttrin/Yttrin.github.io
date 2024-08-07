@@ -3,9 +3,9 @@
 <html lang="zh">
 <head>
     <meta charset="utf-8" />
-    <title>Hello World | Ponkotsu Biyori</title>
+    <title>关于本站 | Ponkotsu Biyori</title>
     <meta name="author" content="Yttrin" />
-    <meta name="description" content="By Yttrin" />
+    <meta name="description" content="" />
     <meta name="keywords" content="" />
     <meta
         name="viewport"
@@ -34,6 +34,11 @@
 />
 <script src="/js/lib/highlight.js"></script>
 
+
+<script src="https://s4.zstatic.net/ajax/libs/KaTeX/0.16.9/katex.min.js"></script>
+<script src="https://s4.zstatic.net/ajax/libs/KaTeX/0.16.9/contrib/auto-render.min.js"></script>
+<link rel="stylesheet" href="https://s4.zstatic.net/ajax/libs/KaTeX/0.16.9/katex.min.css" />
+<script src="/js/lib/math.js"></script>
 
 
 <script src="/js/lib/preview.js"></script>
@@ -71,7 +76,7 @@
             <span>&ensp;Home</span>
         </a>
         
-        <a href="/about">
+        <a href="/2024/08/07/%E5%85%B3%E4%BA%8E%E6%9C%AC%E7%AB%99/">
             <i class="fa-solid fa-id-card fa-fw"></i>
             <span>&ensp;About</span>
         </a>
@@ -81,12 +86,12 @@
             <span>&ensp;Archives</span>
         </a>
         
-        <a href="/categories">
+        <a href="/categories/%E5%85%B6%E4%BB%96/">
             <i class="fa-solid fa-bookmark fa-fw"></i>
             <span>&ensp;Categories</span>
         </a>
         
-        <a href="/tags">
+        <a href="/tags/Tech/">
             <i class="fa-solid fa-tags fa-fw"></i>
             <span>&ensp;Tags</span>
         </a>
@@ -109,7 +114,7 @@
                     </div>
                 </a>
                 
-                <a href="/about">
+                <a href="/2024/08/07/%E5%85%B3%E4%BA%8E%E6%9C%AC%E7%AB%99/">
                     <div class="item">
                         <div style="min-width: 20px; max-width: 50px; width: 10%">
                             <i class="fa-solid fa-id-card fa-fw"></i>
@@ -127,7 +132,7 @@
                     </div>
                 </a>
                 
-                <a href="/categories">
+                <a href="/categories/%E5%85%B6%E4%BB%96/">
                     <div class="item">
                         <div style="min-width: 20px; max-width: 50px; width: 10%">
                             <i class="fa-solid fa-bookmark fa-fw"></i>
@@ -136,7 +141,7 @@
                     </div>
                 </a>
                 
-                <a href="/tags">
+                <a href="/tags/Tech/">
                     <div class="item">
                         <div style="min-width: 20px; max-width: 50px; width: 10%">
                             <i class="fa-solid fa-tags fa-fw"></i>
@@ -156,7 +161,7 @@
         <div id="main" :class="loading ? 'into-enter-from': 'into-enter-active'">
             <div class="article">
     <div>
-        <h1>Hello World</h1>
+        <h1>关于本站</h1>
     </div>
     <div class="info">
         <span class="date">
@@ -166,23 +171,72 @@
             2024/8/7
         </span>
         
+        <span class="category">
+            <a href="/categories/%E5%85%B6%E4%BB%96/">
+                <span class="icon">
+                    <i class="fa-solid fa-bookmark fa-fw"></i>
+                </span>
+                其他
+            </a>
+        </span>
+        
+        
+        <span class="tags">
+            <span class="icon">
+                <i class="fa-solid fa-tags fa-fw"></i>
+            </span>
+            
+            
+            <span class="tag">
+                
+                <a href="/tags/Tech/" style="color: #03a9f4">
+                    Tech
+                </a>
+            </span>
+            
+            <span class="tag">
+                
+                <a href="/tags/Art/" style="color: #ff7d73">
+                    Art
+                </a>
+            </span>
+            
+        </span>
         
     </div>
     
     <div class="content" v-pre>
-        <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+        <h3 id="欢迎！"><a href="#欢迎！" class="headerlink" title="欢迎！"></a>欢迎！</h3><p>这里的好多东西还是 ParticleX 的初始样式，等我捣鼓明白了会调整的！比如封面那张二刺螈大图<font color="red" size=3><strong>并不是</strong></font>我主动放的。</p>
+<h3 id="联系我"><a href="#联系我" class="headerlink" title="联系我"></a>联系我</h3><p>关于本站内容，请在<a target="_blank" rel="noopener" href="https://github.com/Yttrin/Yttrin.github.io/issues">issues</a>留言。欢迎qq：1282414386（建议给相应@qq.com邮箱发邮件，比起qq我<font color="red"><strong>回应邮箱消息更及时</strong></font>）</p>
+<h3 id="这里打算放什么？"><a href="#这里打算放什么？" class="headerlink" title="这里打算放什么？"></a>这里打算放什么？</h3><p>展示我做的一些demo。</p>
+<span id="more"></span>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+<hr>
+<h3 id="本站起源"><a href="#本站起源" class="headerlink" title="本站起源"></a>本站起源</h3><p><del><a target="_blank" rel="noopener" href="https://argvchs.github.io/">Argvchs的小窝</a>有完整的博客搭建教学，不过我把要做的事情都搞定了才看到…</del></p>
+<p>我主要参照<a target="_blank" rel="noopener" href="https://blog.csdn.net/2201_75288693/article/details/138519863">此文</a>完成了这里的搭建。不过，其中遇到了一些问题，我在此进行补充：</p>
+<ol>
+<li>在执行 hexo 时，可能会被 PowerShell 拦截，请使用 Win+R 打开 cmd，再在目录内执行<code>hexo</code>命令。</li>
+<li>install hexo-deployer-git 时，可能会出现错误，这时请使用<code>yarn add hexo-deployer-git</code>进行安装。</li>
+<li><code>hexo deploy</code>时，可能无法访问 _config.yml 文件，这时请确认：</li>
+</ol>
+<ul>
+<li>本地的 _config.yml 文件中的 deploy 项是否正确配置。例如我的是：</li>
+</ul>
+<pre><code class="yaml"># Deployment
+## Docs: https://hexo.io/docs/one-command-deployment
+deploy:
+  type: &#39;git&#39;
+  repo: git@github.com:Yttrin/Yttrin.github.io.git
+  branch: main
+</code></pre>
+<ul>
+<li>确认这个 git 仓库可以写入。例如，我可以在另一个文件夹执行<code>git clone git@github.com:Yttrin/Yttrin.github.io.git</code>以克隆我的仓库。</li>
+</ul>
+<h3 id="如果懂以下问题，请给我留-issue！"><a href="#如果懂以下问题，请给我留-issue！" class="headerlink" title="如果懂以下问题，请给我留 issue！"></a>如果懂以下问题，请给我留 issue！</h3><p>我怎么没想到先去看看 ParticleX 的介绍？现在这 $\sum_{i&#x3D;1}^{2}1^i$ 个问题都解决了。</p>
+<ol>
+<li><del>公式块：其实我挺喜欢用 Latex 写公式的，不过我对于如何在这里渲染公式毫无头绪。也许以后我会截图贴上来。</del></li>
+<li><del>代码高亮：你可以看到代码块左上角有个 highlight 字样。这是配置失败的结果。</del></li>
+</ol>
 
     </div>
     
@@ -198,7 +252,7 @@
     <div id="footer-wrap">
         <div>
             &copy;
-            2022 - 2024 Ponkotsu Biyori
+            2024 - 2024 Ponkotsu Biyori
             <span id="footer-icon">
                 <i class="fa-solid fa-font-awesome fa-fw"></i>
             </span>
@@ -207,6 +261,9 @@
         <div>
             Based on the <a target="_blank" rel="noopener" href="https://hexo.io">Hexo Engine</a> &amp;
             <a target="_blank" rel="noopener" href="https://github.com/theme-particlex/hexo-theme-particlex">ParticleX Theme</a>
+        </div>
+        <div>
+            <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://yttrin.github.io/">All content on Ponkotsu Biyori</a> by <a rel="cc:attributionURL dct:creator noopener" property="cc:attributionName" target="_blank" href="https://github.com/Yttrin">Yttrin</a> is licensed under <a href="https://creativecommons.org/licenses/by-nc/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" alt=""></a></p>
         </div>
         
     </div>
