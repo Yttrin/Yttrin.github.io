@@ -3,7 +3,7 @@
 <html lang="zh">
 <head>
     <meta charset="utf-8" />
-    <title>关于本站 | Ponkotsu Biyori</title>
+    <title>关于本站 | Code Salad</title>
     <meta name="author" content="Yttrin" />
     <meta name="description" content="" />
     <meta name="keywords" content="" />
@@ -68,7 +68,7 @@
         <div id="menu" :class="{ hidden: hiddenMenu, 'menu-color': menuColor}">
     <nav id="desktop-menu">
         <a class="title" href="/">
-            <span>PONKOTSU BIYORI</span>
+            <span>CODE SALAD</span>
         </a>
         
         <a href="/">
@@ -100,7 +100,7 @@
     <nav id="mobile-menu">
         <div class="title" @click="showMenuItems = !showMenuItems">
             <i class="fa-solid fa-bars fa-fw"></i>
-            <span>&emsp;PONKOTSU BIYORI</span>
+            <span>&emsp;CODE SALAD</span>
         </div>
         <transition name="slide">
             <div class="items" v-show="showMenuItems">
@@ -172,11 +172,11 @@
         </span>
         
         <span class="category">
-            <a href="/categories/%E5%85%B6%E4%BB%96/">
+            <a href="/categories/%E5%85%AC%E5%91%8A/">
                 <span class="icon">
                     <i class="fa-solid fa-bookmark fa-fw"></i>
                 </span>
-                其他
+                公告
             </a>
         </span>
         
@@ -189,14 +189,14 @@
             
             <span class="tag">
                 
-                <a href="/tags/Tech/" style="color: #ff7d73">
+                <a href="/tags/Tech/" style="color: #00bcd4">
                     Tech
                 </a>
             </span>
             
             <span class="tag">
                 
-                <a href="/tags/Art/" style="color: #00bcd4">
+                <a href="/tags/Art/" style="color: #ff7d73">
                     Art
                 </a>
             </span>
@@ -215,9 +215,9 @@
 <h3 id="本站起源"><a href="#本站起源" class="headerlink" title="本站起源"></a>本站起源</h3><p><del><a target="_blank" rel="noopener" href="https://argvchs.github.io/">Argvchs的小窝</a>有完整的博客搭建教学，不过我把要做的事情都搞定了才看到…</del></p>
 <p>我主要参照<a target="_blank" rel="noopener" href="https://blog.csdn.net/2201_75288693/article/details/138519863">此文</a>完成了这里的搭建。不过，其中遇到了一些问题，我在此进行补充：</p>
 <ol>
-<li>在执行 hexo 时，可能会被 PowerShell 拦截，请使用 Win+R 打开 cmd，再在目录内执行<code>hexo</code>命令。</li>
+<li>在执行 hexo 时，可能会被 PowerShell 拦截，请以管理员身份运行 cmd，再 cd 到目录内执行<code>hexo</code>命令。</li>
 <li>install hexo-deployer-git 时，可能会出现错误，这时请使用<code>yarn add hexo-deployer-git</code>进行安装。</li>
-<li><code>hexo deploy</code>时，可能无法访问 _config.yml 文件，这时请确认：</li>
+<li><code>hexo deploy</code>时，可能无法访远程部署位置，这时请确认：</li>
 </ol>
 <ul>
 <li>本地的 _config.yml 文件中的 deploy 项是否正确配置。例如我的是：</li>
@@ -253,7 +253,7 @@ deploy:
     <div id="footer-wrap">
         <div>
             &copy;
-            2024 - 2024 Ponkotsu Biyori
+            2024 - 2024 Code Salad
             <span id="footer-icon">
                 <i class="fa-solid fa-font-awesome fa-fw"></i>
             </span>
@@ -264,7 +264,7 @@ deploy:
             <a target="_blank" rel="noopener" href="https://github.com/theme-particlex/hexo-theme-particlex">ParticleX Theme</a>
         </div>
         <div>
-            <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://yttrin.github.io/">All content on Ponkotsu Biyori</a> by <a rel="cc:attributionURL dct:creator noopener" property="cc:attributionName" target="_blank" href="https://github.com/Yttrin">Yttrin</a> is licensed under <a href="https://creativecommons.org/licenses/by-nc/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" alt=""></a></p>
+            <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://yttrin.github.io/">All content on Code Salad</a> by <a rel="cc:attributionURL dct:creator noopener" property="cc:attributionName" target="_blank" href="https://github.com/Yttrin">Yttrin</a> is licensed under <a href="https://creativecommons.org/licenses/by-nc/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" alt=""></a></p>
         </div>
         
     </div>
